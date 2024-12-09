@@ -1,0 +1,74 @@
+body{
+    font-family: "Henny Penny", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+/* div.p{
+    background-color: bisque;
+} */
+.number{
+    background-color: blue;
+    display: flex;
+    justify-content:space-between;
+    justify-content: space-around;
+
+}
+.number p{
+    background-color: bisque;
+    padding: 20px;
+    border-color: black;
+    margin: 5px;
+
+    width: 100px;
+    height: 100px;
+    /* background: red; */
+    font-size: 10px;
+    transition: width 2s, background-color 2s, font-size 2s;
+    
+
+    
+  }
+  
+  .number p:hover {
+    width: 300px;
+    background-color:blueviolet;
+    font-size: 60px
+}
+
+#flexcontainer{display: flex;
+    margin: auto;
+    padding-left: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    justify-content: center;z
+    align-items: center;
+}
+h1{margin: auto;
+    
+
+}
+
+
+.animation h5{
+ width: 100px;
+  height: 100px;
+  background-color: pink;
+  font-size: 10px;
+  color: aliceblue;
+  animation-name: favour;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+/* 
+@keyframes favour{
+  from {background-color:pink;}
+  to {background-color: green;}
+} */
+
+@keyframes favour {
+    0%   {background-color: red;font-size: 15px; color: aqua; }
+    25%  {background-color: yellow; font-size: 30px; color: black;}
+    50%  {background-color: blue; font-size: 45px; color: brown;}
+    100% {background-color: green; font-size: 50px; color: azure;}
+  }
